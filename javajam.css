@@ -24,7 +24,21 @@ h1 { font-size: 3em; }
 h2 { color: #8C3826; }
 h3, dt { color:8C3826; }
 h4 { background-color: #D2B48C;
-     font-size: 1.2em;----
+     font-size: 1.2em;
+     padding-left: .5em;
+     padding-bottom: .25em;
+}
+nav { font-weight: bold;
+	   text-align:  center;
+	   font-size: 1.5em;
+	   padding-top: 5px;
+	   padding-bottom: 5px;
+}
+nav a { text-decoration: none; }
+main { display: block;
+       padding-left: 2em;
+       padding-right: 2em;
+       padding-bottom: 2em;
 }
 footer { background-color: #D2B48C;
 	 font-size: .60em;
