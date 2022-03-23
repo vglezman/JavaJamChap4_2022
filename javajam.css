@@ -1,44 +1,69 @@
-body { background-color: #FCEBB6;
-       background-image: url(fadedroad50.jpg);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-attachment: fixed;
-       color: #221811;
-	   font-family: Tahoma, Arial, sans-serif; 
+* { box-sizing: border-box; }
+body { 
+background-color: #FCEBB6;
+background-image: url(fadedroad50.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+color: #221811;
+font-family: Tahoma, Arial, sans-serif; 
 }
-#wrapper { background-color: #FEFAEB;
-           margin-left: auto;
-           margin-right: auto;
-           width: 80%;
-           min-width: 900px;
-	   max-width: 1280px;
-	   box-shadow: 3px 3px 3px #676767;
+#wrapper { 
+background-color: #FEFAEB;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+min-width: 900px;
+max-width: 1280px;
+box-shadow: 3px 3px 3px #676767;
+padding: 0;
 }   
-header { background-color: #D2B48C; 
-         color: #8C3826; 
-         text-align: center; 
-	 padding-top: 5px;
-	 padding-bottom: 5px;
+header { 
+background-color: #D2B48C; 
+background-image: url(coffeelogo.jpg);
+background-repeat: no-repeat;
+color: #231814; 
+padding-left: 240px;
+padding-top: 5px;
+padding-bottom: 5px;
 }
+header a { textx-decoration: none; }
+header a:link   { color: #231814; }
+header a:visited   { color: #231814; }
+headera:hover { color: #FEF6C2; } 
 h1 { font-size: 3em; }
 h2 { color: #8C3826; }
 h3, dt { color:8C3826; }
-h4 { background-color: #D2B48C;
-     font-size: 1.2em;
-     padding-left: .5em;
-     padding-bottom: .25em;
+h4 { 
+background-color: #D2B48C;
+font-size: 1.2em;
+padding-left: .5em;
+padding-bottom: 0;
+text-transform: uppercase;
+border-bottom: 1px solid #221811;
+clear: left;
 }
-nav { font-weight: bold;
-	   text-align:  center;
-	   font-size: 1.5em;
-	   padding-top: 5px;
-	   padding-bottom: 5px;
+nav { 
+float: left;
+font-weight: bold;
+text-align:  center;
+font-size: 1.5em;
+padding-top: 5px;
+padding-bottom: 5px;
+width: 200px;
 }
 nav a { text-decoration: none; }
-main { display: block;
-       padding-left: 2em;
-       padding-right: 2em;
-       padding-bottom: 2em;
+nav a: link { color: #FEF6C2; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+nav ul {
+list-style-type: none;
+padding-left: 0; }
+main {
+background-color: #FEF6C2;
+display: block;
+margin-left: 200px;
+overflow: auto
 }
 footer { background-color: #D2B48C;
 	 font-size: .60em;
